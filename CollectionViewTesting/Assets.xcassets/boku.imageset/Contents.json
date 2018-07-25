@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "My-Hero-Academia-Season-2-Release-Date-Confirmed-For-2017-Boku-no-Hero-Academia-Manga-Spoilers-Tell-UsThe-Sports-Festival-Story-Arc-Video.jpg",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
