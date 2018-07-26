@@ -10,23 +10,30 @@ import UIKit
 
 class PeekViewController: UIViewController {
     @IBOutlet weak var peekImageView: UIImageView!
+    
     var recievedImage:UIImage?
     var delegate: ControlAnimesDelegate?
     var indexPath: IndexPath?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         peekImageView.image = recievedImage
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
+        
     }
     
-    @IBAction func favoritarAnime(_ sender: Any) {
-        delegate?.favoritarAnime(at: indexPath!)
-    }
-    
-    @IBAction func excluirAnime(_ sender: Any) {
-        delegate?.deletarAnime(at: indexPath!)
+    /*  Como PeekViewContoller foi registrado como pre-visualização podemos escrever previewActionItens aqui.
+     Escrevemos ações de dar like e apagar anime do array visualizado. e retirnamos ele para a view
+ */
+    override var previewActionItems: [UIPreviewActionItem]{
+        
+        let likeAction = UIPreviewAction(title: "Like", style: .default) { (action, viewController) -> Void in
+            self.delegate?.favoritarAnime(at: self.indexPath!)
+        }
+        
+        let deleteAction = UIPreviewAction(title: "Delete", style: .destructive) { (action, viewController) -> Void in
+            self.delegate?.deletarAnime(at: self.indexPath!)
+        }
+        
+        return [likeAction, deleteAction]
     }
 }

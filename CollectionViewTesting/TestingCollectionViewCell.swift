@@ -10,5 +10,4 @@ import UIKit
 
 class TestingCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var imageCollectionView: UIImageView!
-    
 }

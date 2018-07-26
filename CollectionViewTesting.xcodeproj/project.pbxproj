@@ -15,6 +15,7 @@
 		156944B021090512005ADE92 /* TestingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156944AF21090512005ADE92 /* TestingCollectionViewCell.swift */; };
 		156944B221091A18005ADE92 /* PeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156944B121091A18005ADE92 /* PeekViewController.swift */; };
 		156944B421091C8D005ADE92 /* ControlAnimesDelelgate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156944B321091C8D005ADE92 /* ControlAnimesDelelgate.swift */; };
+		BEBA0C822109FAE900C25FA0 /* PopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBA0C812109FAE900C25FA0 /* PopViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		156944AF21090512005ADE92 /* TestingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingCollectionViewCell.swift; sourceTree = "<group>"; };
 		156944B121091A18005ADE92 /* PeekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeekViewController.swift; sourceTree = "<group>"; };
 		156944B321091C8D005ADE92 /* ControlAnimesDelelgate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlAnimesDelelgate.swift; sourceTree = "<group>"; };
+		BEBA0C812109FAE900C25FA0 /* PopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				1569449D210902BA005ADE92 /* AppDelegate.swift */,
 				1569449F210902BA005ADE92 /* ViewController.swift */,
 				156944A1210902BA005ADE92 /* Main.storyboard */,
+				BEBA0C812109FAE900C25FA0 /* PopViewController.swift */,
 				156944B321091C8D005ADE92 /* ControlAnimesDelelgate.swift */,
 				156944B121091A18005ADE92 /* PeekViewController.swift */,
 				156944AF21090512005ADE92 /* TestingCollectionViewCell.swift */,
@@ -146,6 +149,7 @@
 			files = (
 				156944A0210902BA005ADE92 /* ViewController.swift in Sources */,
 				156944B021090512005ADE92 /* TestingCollectionViewCell.swift in Sources */,
+				BEBA0C822109FAE900C25FA0 /* PopViewController.swift in Sources */,
 				156944B421091C8D005ADE92 /* ControlAnimesDelelgate.swift in Sources */,
 				1569449E210902BA005ADE92 /* AppDelegate.swift in Sources */,
 				156944B221091A18005ADE92 /* PeekViewController.swift in Sources */,
