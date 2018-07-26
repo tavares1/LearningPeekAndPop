@@ -12,11 +12,7 @@
 
 #### Screenshots 📷
 
-##### CollectionView
-![ViewController](https://i.imgur.com/x6sCc1S.png)
-
-##### Tela de Peek
-![PeekViewController](https://i.imgur.com/aQdh4nX.png)
-##### Tela de Pop
-![PopViewController](https://i.imgur.com/JW3YL9p.png)
+|CollectionView|Tela de Peek|Tela de Pop|
+|----------|----------|----|
+|![](https://i.imgur.com/x6sCc1S.png)|![](https://i.imgur.com/aQdh4nX.png)|![](https://i.imgur.com/JW3YL9p.png)|
 
